@@ -1,4 +1,5 @@
-From mathcomp Require Import all_ssreflect.
+From Coq Require Import ssreflect ssrfun ssrbool.
+From mathcomp Require Import eqtype ssrnat div prime. 
 
 Fixpoint fibonacci (x: nat) := match x with
 	| 0 => 1
@@ -8,7 +9,5 @@ Fixpoint fibonacci (x: nat) := match x with
 		end
 	end.
 
-Definition print (x: nat) := 
-	Check x.
+Compute fibonacci 22.
 
-print 101.

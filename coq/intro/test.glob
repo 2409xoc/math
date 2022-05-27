@@ -1,0 +1,21 @@
+DIGEST 651493ceabf34119387019883ebd54aa
+Ftest
+R24:32 Coq.ssr.ssreflect <> <> lib
+R34:39 Coq.ssr.ssrfun <> <> lib
+R41:47 Coq.ssr.ssrbool <> <> lib
+R79:84 mathcomp.ssreflect.eqtype <> <> lib
+R86:91 mathcomp.ssreflect.ssrnat <> <> lib
+R93:95 mathcomp.ssreflect.div <> <> lib
+R97:101 mathcomp.ssreflect.prime <> <> lib
+def 115:123 <> fibonacci
+R129:131 Coq.Init.Datatypes <> nat ind
+binder 126:126 <> x:1
+R143:143 test <> x:1 var
+R164:164 Coq.Init.Datatypes <> S constr
+R203:203 Coq.Init.Datatypes <> S constr
+R213:213 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'+'_x not
+R226:230 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'+'_x not
+R244:244 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'+'_x not
+R214:222 test <> fibonacci:2 def
+R231:239 test <> fibonacci:2 def
+R267:275 test <> fibonacci def
